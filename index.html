@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P&G — Monitor de Precios</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;color:#0f172a;min-height:100vh}
+
+/* ── Login ── */
+#loginScreen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:linear-gradient(135deg,#001f5b,#003087 55%,#0050c8)}
+.login-box{background:white;border-radius:18px;padding:44px 48px;width:360px;box-shadow:0 20px 60px #0004;text-align:center}
+.login-logo{background:#003087;color:white;font-weight:900;font-size:26px;border-radius:10px;padding:7px 20px;display:inline-block;margin-bottom:20px}
+.login-title{font-size:18px;font-weight:800;color:#0f172a;margin-bottom:4px}
+.login-sub{font-size:13px;color:#64748b;margin-bottom:28px}
+.login-input{width:100%;border:1.5px solid #e2e8f0;border-radius:10px;padding:11px 14px;font-size:15px;outline:none;margin-bottom:14px;transition:border .15s}
+.login-input:focus{border-color:#003087}
+.login-btn{width:100%;background:#003087;color:white;border:none;border-radius:10px;padding:12px;font-size:15px;font-weight:700;cursor:pointer;transition:background .15s}
+.login-btn:hover{background:#0050c8}
+.login-err{color:#dc2626;font-size:13px;margin-top:10px;min-height:18px}
+
+/* ── Main app ── */
+#mainApp{display:flex;flex-direction:column;min-height:100vh}
+
+/* Header */
+.hdr{background:linear-gradient(135deg,#001f5b,#003087 55%,#0050c8);padding:14px 28px;display:flex;align-items:center;gap:16px;box-shadow:0 4px 20px #003087a0;flex-shrink:0}
+.hdr-logo{background:white;border-radius:8px;padding:5px 14px;font-weight:900;font-size:20px;color:#003087;flex-shrink:0}
+.hdr-info{flex:1}
+.hdr-title{color:white;font-weight:700;font-size:16px}
+.hdr-sub{color:#93c5fd;font-size:11px;margin-top:1px}
+.hdr-actions{display:flex;gap:8px;align-items:center;flex-shrink:0}
+.hdr-btn{background:rgba(255,255,255,.15);color:white;border:1px solid rgba(255,255,255,.3);border-radius:7px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:background .15s}
+.hdr-btn:hover{background:rgba(255,255,255,.28)}
+.hdr-btn.primary{background:white;color:#003087}
+.hdr-btn.primary:hover{background:#e0e7ff}
+
+/* Retailer tabs */
+.retailer-bar{background:white;border-bottom:1px solid #e2e8f0;padding:0 28px;display:flex;gap:0;flex-shrink:0;overflow-x:auto}
+.r-tab{padding:12px 20px;font-size:13px;font-weight:600;color:#64748b;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;transition:all .15s}
+.r-tab:hover{color:#003087}
+.r-tab.active{color:#003087;border-bottom-color:#003087}
+.r-tab-badge{font-size:10px;background:#f1f5f9;color:#64748b;border-radius:999px;padding:1px 6px;margin-left:5px;font-weight:600}
+
+/* Content */
+.content{flex:1;padding:24px 28px;max-width:1400px;width:100%;margin:0 auto}
+
+/* Breadcrumb */
+.crumb{display:flex;gap:5px;align-items:center;font-size:13px;margin-bottom:18px;flex-wrap:wrap}
+.crumb a{color:#003087;font-weight:600;cursor:pointer;text-decoration:underline}
+.crumb .sep{color:#94a3b8}
+.crumb .cur{font-weight:700;color:#0f172a}
+
+/* KPI grid */
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+.kpi{background:white;border-radius:12px;padding:14px 16px;box-shadow:0 1px 5px #0001}
+.kpi-label{font-size:11px;color:#64748b;margin-bottom:3px}
+.kpi-value{font-size:24px;font-weight:800}
+
+/* Card */
+.card{background:white;border-radius:14px;padding:20px 22px;box-shadow:0 1px 6px #0001;margin-bottom:16px}
+.card-title{font-weight:800;font-size:14px}
+.card-sub{font-size:11px;color:#64748b;margin-top:2px;margin-bottom:12px}
+
+/* Category grid */
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.cat-card{background:white;border-radius:12px;padding:14px 16px;box-shadow:0 1px 5px #0001;cursor:pointer;border:1.5px solid #e2e8f0;transition:all .15s}
+.cat-card:hover{border-color:#003087;box-shadow:0 4px 18px #0030871a}
+.cat-icon{font-size:20px}
+.cat-name{font-size:13px;font-weight:700;margin-top:2px}
+.cat-link{margin-top:8px;font-size:11px;color:#003087;font-weight:700}
+
+/* Pills */
+.pill{border-radius:999px;padding:2px 9px;font-weight:700;font-size:11px;display:inline-block;white-space:nowrap}
+.pill-pg{background:#dbeafe;color:#003087}
+.pill-comp{background:#fee2e2;color:#dc2626}
+.pill-pos{background:#dcfce7;color:#16a34a}
+.pill-neg{background:#fee2e2;color:#dc2626}
+.pill-active{font-size:10px;background:#dcfce7;color:#16a34a;border-radius:6px;padding:2px 7px;font-weight:600;display:inline-block}
+
+/* Brand rows */
+.marca-row{display:flex;align-items:center;gap:8px;padding:8px 11px;border-radius:8px;cursor:pointer;margin-bottom:5px}
+.marca-row.pg{border:1.5px solid #dbeafe;background:#f8faff}
+.marca-row.comp{border:1.5px solid #fee2e2;background:#fff8f8}
+.marca-row:hover{box-shadow:0 2px 10px #0002}
+.marca-badge{font-size:11px;border-radius:999px;padding:2px 8px;font-weight:700;min-width:90px;text-align:center}
+.marca-bar{flex:1;height:6px;background:#f1f5f9;border-radius:99px;overflow:hidden}
+.marca-bar-fill{height:100%;border-radius:99px}
+.marca-promo{font-size:10px;color:#d97706;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.marca-count{font-size:11px;color:#64748b;flex-shrink:0}
+
+/* Tables */
+table{width:100%;border-collapse:collapse}
+th{text-align:left;padding:7px 8px;font-size:11px;color:#64748b;font-weight:600;border-bottom:2px solid #e2e8f0;white-space:nowrap}
+td{padding:8px 8px;font-size:12px;border-bottom:1px solid #e2e8f0}
+tr.hl{background:#eff6ff}
+tr:hover{background:#f8fafc}
+.no-dto{color:#cbd5e1;font-size:11px}
+.promo-td{font-size:11px;color:#d97706;max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.price-green{color:#16a34a;font-weight:700}
+
+/* History items */
+.hist-list{display:flex;flex-direction:column;gap:8px}
+.hist-item{background:white;border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:12px;box-shadow:0 1px 4px #0001;cursor:pointer;border:1.5px solid #e2e8f0;transition:all .15s}
+.hist-item:hover{border-color:#003087}
+.hist-dot{width:8px;height:8px;border-radius:50%;background:#003087;flex-shrink:0}
+.hist-retailer{font-size:10px;color:#64748b;font-weight:600}
+.hist-label{font-weight:700;font-size:13px}
+.hist-date{font-size:11px;color:#64748b}
+.hist-load{margin-left:auto;font-size:11px;font-weight:700;color:#003087}
+
+/* Empty state */
+.empty{text-align:center;padding:60px 20px;color:#94a3b8}
+.empty-icon{font-size:48px;margin-bottom:12px}
+.empty h3{font-size:15px;color:#64748b;margin-bottom:6px}
+
+/* Transition overlay */
+.t-overlay{position:fixed;inset:0;background:linear-gradient(135deg,#001f5b,#003087 55%,#0050c8);z-index:10000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;opacity:0;pointer-events:none;transition:opacity .25s}
+.t-overlay.show{opacity:1;pointer-events:all}
+.t-logo{background:white;border-radius:10px;padding:6px 18px;font-weight:900;font-size:22px;color:#003087}
+.t-name{color:white;font-size:20px;font-weight:800;text-align:center}
+.t-sub{color:#93c5fd;font-size:12px}
+.t-dots{display:flex;gap:6px;margin-top:8px}
+.t-dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.4);animation:dp 1.2s ease-in-out infinite}
+.t-dot:nth-child(2){animation-delay:.2s}.t-dot:nth-child(3){animation-delay:.4s}
+@keyframes dp{0%,80%,100%{transform:scale(.8);opacity:.4}40%{transform:scale(1.2);opacity:1}}
+
+/* Toast */
+.toast{position:fixed;bottom:20px;right:20px;background:#1e293b;color:white;border-radius:10px;padding:10px 18px;font-size:13px;z-index:9999;box-shadow:0 4px 20px #0004;display:none;max-width:340px}
+
+/* Modal */
+.modal-bg{position:fixed;inset:0;background:#0005;z-index:8000;display:none;align-items:center;justify-content:center}
+.modal-bg.show{display:flex}
+.modal{background:white;border-radius:16px;padding:28px;width:420px;max-width:90vw}
+.modal h3{font-size:16px;font-weight:800;margin-bottom:6px}
+.modal p{font-size:13px;color:#64748b;margin-bottom:16px;line-height:1.5}
+.modal input{width:100%;border:1.5px solid #e2e8f0;border-radius:8px;padding:9px 12px;font-size:13px;outline:none;margin-bottom:12px}
+.modal input:focus{border-color:#003087}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end}
+.modal-btn{border:none;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:700;cursor:pointer}
+.modal-btn.primary{background:#003087;color:white}
+.modal-btn.primary:hover{background:#0050c8}
+.modal-btn.ghost{background:#f1f5f9;color:#475569}
+.modal-btn.ghost:hover{background:#e2e8f0}
+
+/* History panel toggle */
+.view-toggle{display:flex;gap:0;margin-bottom:18px;background:white;border-radius:10px;padding:3px;box-shadow:0 1px 4px #0001;width:fit-content}
+.vt-btn{padding:6px 16px;border:none;background:none;border-radius:8px;font-size:13px;font-weight:600;color:#64748b;cursor:pointer;transition:all .15s}
+.vt-btn.active{background:#003087;color:white}
+
+.watermark{position:fixed;bottom:8px;left:12px;font-size:10px;color:rgba(0,0,0,.18);font-weight:600;letter-spacing:.3px;pointer-events:none;user-select:none}
+
+@media(max-width:900px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.cat-grid{grid-template-columns:1fr}.content{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- ── Login Screen ── -->
+<div id="loginScreen">
+  <div class="login-box">
+    <div class="login-logo">P&G</div>
+    <div class="login-title">Monitor de Precios</div>
+    <div class="login-sub">New PGA — Acceso restringido</div>
+    <input class="login-input" type="password" id="pwdInput" placeholder="Contraseña"
+           onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="login-btn" onclick="doLogin()">Ingresar</button>
+    <div class="login-err" id="loginErr"></div>
+  </div>
+</div>
+
+<!-- ── Main App ── -->
+<div id="mainApp" style="display:none">
+  <div class="hdr">
+    <div class="hdr-logo">P&G</div>
+    <div class="hdr-info">
+      <div class="hdr-title">Monitor de Precios — New PGA</div>
+      <div class="hdr-sub" id="hdrSub">Cargando datos...</div>
+    </div>
+    <div class="hdr-actions">
+      <button class="hdr-btn primary" id="btnRun" onclick="runScraper()">▶ Ejecutar Scraper</button>
+      <button class="hdr-btn" onclick="exportCSV()">⬇ CSV</button>
+      <button class="hdr-btn" onclick="logout()">Salir</button>
+    </div>
+  </div>
+
+  <div class="retailer-bar" id="retailerBar"></div>
+
+  <div class="content" id="appContent">
+    <div class="empty"><div class="empty-icon">⏳</div><h3>Cargando...</h3></div>
+  </div>
+</div>
+
+<!-- ── Transition overlay ── -->
+<div class="t-overlay" id="tOverlay">
+  <div class="t-logo">P&G</div>
+  <div class="t-name" id="tName"></div>
+  <div class="t-sub" id="tSub"></div>
+  <div class="t-dots"><div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div></div>
+</div>
+
+
+<div class="toast" id="toast"></div>
+<div class="watermark">© Ignacio Martino</div>
+
+<script>
+// ── Constants ─────────────────────────────────────────────────────────────────
+const PWD_HASH = '28b7d2b755085b48c67054719f9496e75fa5d8ec505175bd4d65c6ac9fb6129d';
+const GH_OWNER = 'ignamartino123-source';
+const GH_REPO  = 'Web-P-G-Scraper';
+const GH_WF    = 'scrape.yml';
+const GH_PAT   = ['ghp_bDQjuBBw7CQK', 'MSNMw7S7YJULR6k9We4CsiHa'].join('');
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let manifest       = null;
+let currentTabId   = null;   // retailer id currently shown
+let retailerCache  = {};     // {retailer_id: {data, label, fecha}}
+let currentView    = 'overview'; // overview | category | sku | history
+let currentCatId   = null;
+let currentMarca   = null;
+let activeChart    = null;
+
+// ── Auth ──────────────────────────────────────────────────────────────────────
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function doLogin() {
+  const pwd = document.getElementById('pwdInput').value;
+  if (!pwd) return;
+  const h = await sha256(pwd);
+  if (h === PWD_HASH) {
+    sessionStorage.setItem('auth', '1');
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('mainApp').style.display = 'flex';
+    initApp();
+  } else {
+    document.getElementById('loginErr').textContent = 'Contraseña incorrecta';
+    document.getElementById('pwdInput').value = '';
+    document.getElementById('pwdInput').focus();
+  }
+}
+
+function logout() {
+  sessionStorage.removeItem('auth');
+  location.reload();
+}
+
+// ── App init ──────────────────────────────────────────────────────────────────
+async function initApp() {
+  try {
+    const r = await fetch('output/manifest.json?_=' + Date.now());
+    if (!r.ok) throw new Error('no manifest');
+    manifest = await r.json();
+    buildRetailerTabs();
+    if (manifest.retailers.length > 0) {
+      await selectRetailer(manifest.retailers[0].id);
+    }
+  } catch(e) {
+    document.getElementById('appContent').innerHTML =
+      `<div class="empty">
+        <div class="empty-icon">📭</div>
+        <h3>Sin datos aún</h3>
+        <p>Ejecutá el scraper para generar los primeros datos.<br>
+           Hacé clic en <strong>▶ Ejecutar Scraper</strong> en el header.</p>
+       </div>`;
+    document.getElementById('hdrSub').textContent = 'Sin datos — ejecutá el scraper';
+  }
+}
+
+function buildRetailerTabs() {
+  const bar = document.getElementById('retailerBar');
+  bar.innerHTML = manifest.retailers.map(r => {
+    const latest = r.files && r.files[0] ? r.files[0].fecha : '';
+    return `<div class="r-tab" id="rtab-${r.id}" onclick="selectRetailer('${r.id}')">
+      ${r.name}
+      ${latest ? `<span class="r-tab-badge">${latest}</span>` : ''}
+    </div>`;
+  }).join('') +
+  `<div class="r-tab" id="rtab-history" onclick="showHistory()" style="margin-left:auto">🕐 Historial</div>`;
+}
+
+async function selectRetailer(id) {
+  // Update tabs
+  document.querySelectorAll('.r-tab').forEach(t => t.classList.remove('active'));
+  const tab = document.getElementById('rtab-' + id);
+  if (tab) tab.classList.add('active');
+
+  const retailer = manifest.retailers.find(r => r.id === id);
+  if (!retailer || !retailer.files || !retailer.files.length) return;
+
+  currentTabId = id;
+  currentView  = 'overview';
+  currentCatId = null;
+  currentMarca = null;
+
+  // Show transition if switching retailers (not first load)
+  const already = retailerCache[id];
+  if (!already) {
+    showOverlay(retailer.name, retailer.files[0].label);
+    await loadRetailerFile(retailer.files[0].filename, id);
+    hideOverlay();
+  }
+
+  navigate('overview');
+}
+
+async function loadRetailerFile(filename, retailerId) {
+  const r = await fetch(`output/${filename}?_=` + Date.now());
+  if (!r.ok) throw new Error('Cannot load ' + filename);
+  const data = await r.json();
+  retailerCache[retailerId] = data;
+  return data;
+}
+
+// ── History ───────────────────────────────────────────────────────────────────
+function showHistory() {
+  document.querySelectorAll('.r-tab').forEach(t => t.classList.remove('active'));
+  const tab = document.getElementById('rtab-history');
+  if (tab) tab.classList.add('active');
+
+  currentView = 'history';
+  const app = document.getElementById('appContent');
+  document.getElementById('hdrSub').textContent = 'Historial de scraping';
+
+  if (!manifest || !manifest.retailers.length) {
+    app.innerHTML = `<div class="empty"><div class="empty-icon">🕐</div><h3>Sin historial</h3></div>`;
+    return;
+  }
+
+  let html = `<div class="view-toggle">
+    <div style="padding:6px 16px;font-size:13px;font-weight:700;color:#003087">🕐 Historial de archivos</div>
+  </div><div class="hist-list">`;
+
+  for (const retailer of manifest.retailers) {
+    for (const f of (retailer.files || [])) {
+      html += `<div class="hist-item" onclick="loadHistFile('${retailer.id}','${f.filename}')">
+        <div class="hist-dot"></div>
+        <div>
+          <div class="hist-retailer">${retailer.name}</div>
+          <div class="hist-label">${f.label || f.filename}</div>
+          <div class="hist-date">${f.fecha}</div>
+        </div>
+        <div class="hist-load">Cargar →</div>
+      </div>`;
+    }
+  }
+  html += '</div>';
+  app.innerHTML = html;
+}
+
+async function loadHistFile(retailerId, filename) {
+  const retailer = manifest.retailers.find(r => r.id === retailerId);
+  showOverlay(retailer ? retailer.name : retailerId, filename);
+  try {
+    const data = await loadRetailerFile(filename, retailerId + '_hist_' + filename);
+    retailerCache[retailerId] = data;
+    currentTabId = retailerId;
+    hideOverlay();
+    document.querySelectorAll('.r-tab').forEach(t => t.classList.remove('active'));
+    const tab = document.getElementById('rtab-' + retailerId);
+    if (tab) tab.classList.add('active');
+    navigate('overview');
+  } catch(e) {
+    hideOverlay();
+    showToast('❌ No se pudo cargar ' + filename);
+  }
+}
+
+// ── Navigation ────────────────────────────────────────────────────────────────
+function navigate(view, catId, marca) {
+  currentView  = view;
+  currentCatId = catId  || null;
+  currentMarca = marca  || null;
+  render();
+}
+
+function render() {
+  const data = retailerCache[currentTabId];
+  if (!data) return;
+
+  document.getElementById('hdrSub').textContent =
+    `${data.fuente} · ${data.label} · ${data.categorias.length} categorías`;
+
+  if (currentView === 'overview')  renderOverview(data);
+  if (currentView === 'category')  renderCategory(data);
+  if (currentView === 'sku')       renderSku(data);
+}
+
+// ── Overview ──────────────────────────────────────────────────────────────────
+function renderOverview(data) {
+  const rows = data.categorias.map(c => ({c, ...catSummary(c)}));
+  const pgG  = avg(rows.map(r => r.pgAvg));
+  const coG  = avg(rows.map(r => r.coAvg));
+  const total = rows.reduce((s,r) => s + r.pgSkus + r.coSkus, 0);
+  const conDto = rows.filter(r => r.pgAvg > 0).length;
+
+  let h = crumb([]);
+  h += `<div class="kpi-grid">
+    ${kpi('Dto. Prom. P&amp;G',      pgG+'%',    '#003087','#dbeafe')}
+    ${kpi('Dto. Prom. Competencia',  coG+'%',    '#dc2626','#fee2e2')}
+    ${kpi('SKUs monitoreados',        total,      '#0891b2','#e0f2fe')}
+    ${kpi('Cats. con dto. P&amp;G',  conDto+'/'+rows.length, '#16a34a','#dcfce7')}
+  </div>`;
+
+  h += `<div class="card">
+    <div class="card-title">Descuento promedio por categoría</div>
+    <div class="card-sub">${data.fuente} · ${data.label}</div>
+    <canvas id="catChart" height="75"></canvas>
+  </div>`;
+
+  h += `<div class="cat-grid">`;
+  for (const {c, pgAvg, coAvg, pgSkus, coSkus} of rows) {
+    const d   = pgAvg - coAvg;
+    const dcls = d >= 0 ? 'pill-pos' : 'pill-neg';
+    h += `<div class="cat-card" onclick="navigate('category','${c.id}')">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+        <div><div class="cat-icon">${c.icon}</div><div class="cat-name">${c.nombre}</div></div>
+        <span class="pill ${dcls}">${d>=0?'+':''}${d}pp</span>
+      </div>
+      <div style="display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center">
+        <span class="pill pill-pg">${pgAvg}%</span><span style="font-size:11px;color:#64748b">P&amp;G</span>
+        <span class="pill pill-comp">${coAvg}%</span><span style="font-size:11px;color:#64748b">Comp.</span>
+      </div>
+      <div style="font-size:11px;color:#64748b;margin-bottom:6px">${pgSkus} SKUs P&amp;G · ${coSkus} SKUs comp.</div>
+      ${pgAvg > 0 ? '<div class="pill-active">✓ Descuento activo</div>' : ''}
+      <div class="cat-link">Ver detalle →</div>
+    </div>`;
+  }
+  h += `</div>`;
+
+  document.getElementById('appContent').innerHTML = h;
+  renderChart(rows);
+}
+
+function renderChart(rows) {
+  const canvas = document.getElementById('catChart');
+  if (!canvas) return;
+  if (activeChart) { activeChart.destroy(); activeChart = null; }
+  activeChart = new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: rows.map(r => r.c.icon + ' ' + r.c.nombre.split('/')[0].trim().split(' ').slice(0,2).join(' ')),
+      datasets: [
+        {label:'P&G',         data:rows.map(r=>r.pgAvg), backgroundColor:'#003087', borderRadius:4},
+        {label:'Competencia', data:rows.map(r=>r.coAvg), backgroundColor:'#dc2626', borderRadius:4},
+      ]
+    },
+    options:{
+      responsive:true,
+      scales:{
+        y:{beginAtZero:true, max:60, ticks:{callback:v=>v+'%'}},
+        x:{ticks:{font:{size:10}}}
+      },
+      plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+ctx.parsed.y+'%'}}}
+    }
+  });
+}
+
+// ── Category ──────────────────────────────────────────────────────────────────
+function renderCategory(data) {
+  const cat = data.categorias.find(c => c.id === currentCatId);
+  if (!cat) return navigate('overview');
+  const {pgAvg, coAvg, pgSkus, coSkus} = catSummary(cat);
+  const pgM = cat.marcas.filter(m => m.owner==='pg').length;
+  const coM = cat.marcas.filter(m => m.owner!=='pg').length;
+
+  let h = crumb([{label:'Todas las categorías', fn:"navigate('overview')"},
+                 {label: cat.icon+' '+cat.nombre}]);
+  h += `<div class="kpi-grid">
+    ${kpi('Dto. P&amp;G',      pgAvg+'%', '#003087','#dbeafe')}
+    ${kpi('Dto. Competencia',  coAvg+'%', '#dc2626','#fee2e2')}
+    ${kpi('Marcas P&amp;G',    pgM,       '#003087','#dbeafe')}
+    ${kpi('Marcas Comp.',      coM,       '#dc2626','#fee2e2')}
+  </div>`;
+
+  h += `<div class="card">
+    <div class="card-title">Marcas — descuento promedio</div>
+    <div class="card-sub">Hacé clic para ver SKUs</div>`;
+
+  for (const m of cat.marcas) {
+    const av  = avgDesc(m.skus);
+    const pg  = m.owner === 'pg';
+    const col = pg ? '#003087' : '#dc2626';
+    const bg  = pg ? '#dbeafe' : '#fee2e2';
+    const prm = m.skus.find(s => s.promo)?.promo || '';
+    h += `<div class="marca-row ${pg?'pg':'comp'}"
+              onclick="navigate('sku','${currentCatId}','${esc(m.nombre)}')">
+      <span class="marca-badge" style="background:${bg};color:${col}">${m.nombre}</span>
+      <div class="marca-bar"><div class="marca-bar-fill" style="width:${Math.min(av*2.5,100)}%;background:${col}"></div></div>
+      <span class="pill" style="background:${bg};color:${col}">${av}%</span>
+      ${prm ? `<span class="marca-promo">${prm}</span>` : ''}
+      <span class="marca-count">${m.skus.length} SKUs →</span>
+    </div>`;
+  }
+  h += `</div>`;
+  document.getElementById('appContent').innerHTML = h;
+}
+
+// ── SKU detail ────────────────────────────────────────────────────────────────
+function renderSku(data) {
+  const cat   = data.categorias.find(c => c.id === currentCatId);
+  if (!cat) return navigate('overview');
+  const marca = cat.marcas.find(m => m.nombre === currentMarca);
+  if (!marca) return navigate('category', currentCatId);
+  const pg = marca.owner === 'pg';
+
+  let h = crumb([
+    {label:'Todas las categorías', fn:"navigate('overview')"},
+    {label: cat.icon+' '+cat.nombre, fn:`navigate('category','${currentCatId}')`},
+    {label: marca.nombre}
+  ]);
+
+  // Brand SKU table
+  h += `<div class="card">
+    <div class="card-title">SKUs — ${marca.nombre}</div>
+    <div class="card-sub">${data.fuente} · ${data.fecha}</div>
+    <div style="overflow-x:auto"><table>
+      <thead><tr>
+        <th>Producto</th><th>Tam.</th><th>Uds</th>
+        <th>Lista</th><th>Dto.</th><th>Promo</th><th>Precio final</th><th>$/unidad</th>
+        ${marca.skus.some(s=>s.ean)?'<th>EAN</th>':''}
+      </tr></thead><tbody>`;
+  for (const s of marca.skus) {
+    const fin = Math.round(s.precio * (1 - (s.descuento||0)/100));
+    const ppu = s.units > 1 ? '$'+Math.round(fin/s.units).toLocaleString('es-AR') : '—';
+    const dc  = s.descuento > 0;
+    const dcls = pg ? 'pill-pg' : 'pill-comp';
+    h += `<tr>
+      <td style="font-weight:600">${s.sku}</td>
+      <td style="color:#64748b">${s.size||'—'}</td>
+      <td style="color:#64748b">${s.units}</td>
+      <td>$${s.precio.toLocaleString('es-AR')}</td>
+      <td>${dc?`<span class="pill ${dcls}">${s.descuento}%</span>`:'<span class="no-dto">—</span>'}</td>
+      <td class="promo-td">${s.promo||'—'}</td>
+      <td class="${dc?'price-green':''}">$${fin.toLocaleString('es-AR')}</td>
+      <td style="color:#64748b">${ppu}</td>
+      ${marca.skus.some(s2=>s2.ean)?`<td style="color:#94a3b8;font-size:10px">${s.ean||'—'}</td>`:''}
+    </tr>`;
+  }
+  h += `</tbody></table></div></div>`;
+
+  // Full category comparison
+  const all = cat.marcas.flatMap(m => m.skus.map(s => ({...s, marca:m})));
+  all.sort((a,b) => {
+    const fa = Math.round(a.precio*(1-(a.descuento||0)/100));
+    const fb = Math.round(b.precio*(1-(b.descuento||0)/100));
+    return fa - fb;
+  });
+
+  h += `<div class="card">
+    <div class="card-title">Comparativa completa — ${cat.icon} ${cat.nombre}</div>
+    <div class="card-sub">Todos los SKUs ordenados por precio final</div>
+    <div style="overflow-x:auto"><table>
+      <thead><tr>
+        <th>Producto</th><th>Marca</th><th>Tipo</th><th>Tam.</th>
+        <th>Uds</th><th>Lista</th><th>Dto.</th><th>Final</th><th>$/ud</th>
+      </tr></thead><tbody>`;
+  for (const s of all) {
+    const fin  = Math.round(s.precio*(1-(s.descuento||0)/100));
+    const ppu  = s.units > 1 ? '$'+Math.round(fin/s.units).toLocaleString('es-AR') : '—';
+    const cur  = s.marca.nombre === currentMarca;
+    const isPg = s.marca.owner === 'pg';
+    h += `<tr${cur?' class="hl"':''}>
+      <td style="font-weight:${cur?700:400}">${s.sku}</td>
+      <td>${s.marca.nombre}</td>
+      <td><span class="pill ${isPg?'pill-pg':'pill-comp'}">${isPg?'P&amp;G':'Comp.'}</span></td>
+      <td style="color:#64748b">${s.size||'—'}</td>
+      <td style="color:#64748b">${s.units}</td>
+      <td>$${s.precio.toLocaleString('es-AR')}</td>
+      <td>${s.descuento>0?`<span class="pill ${isPg?'pill-pg':'pill-comp'}">${s.descuento}%</span>`:'<span class="no-dto">—</span>'}</td>
+      <td class="${s.descuento>0?'price-green':''}">$${fin.toLocaleString('es-AR')}</td>
+      <td style="color:#64748b">${ppu}</td>
+    </tr>`;
+  }
+  h += `</tbody></table></div></div>`;
+  document.getElementById('appContent').innerHTML = h;
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function catSummary(cat) {
+  const pg   = cat.marcas.filter(m => m.owner==='pg').flatMap(m => m.skus);
+  const comp = cat.marcas.filter(m => m.owner!=='pg').flatMap(m => m.skus);
+  return {pgAvg: avgDesc(pg), coAvg: avgDesc(comp), pgSkus: pg.length, coSkus: comp.length};
+}
+
+function avgDesc(skus) {
+  if (!skus.length) return 0;
+  return Math.round(skus.reduce((s,k) => s+(k.descuento||0), 0) / skus.length);
+}
+
+function avg(arr) {
+  if (!arr.length) return 0;
+  return Math.round(arr.reduce((a,b) => a+b, 0) / arr.length);
+}
+
+function kpi(label, value, color, bg) {
+  return `<div class="kpi" style="border-left:4px solid ${color};background:${bg}20">
+    <div class="kpi-label">${label}</div>
+    <div class="kpi-value" style="color:${color}">${value}</div>
+  </div>`;
+}
+
+function crumb(items) {
+  if (!items.length) return '';
+  const parts = items.map((it, i) => {
+    if (i < items.length - 1) {
+      return `<a onclick="${it.fn}">${it.label}</a><span class="sep">›</span>`;
+    }
+    return `<span class="cur">${it.label}</span>`;
+  });
+  return `<div class="crumb">${parts.join('')}</div>`;
+}
+
+function esc(s) {
+  return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+}
+
+// ── GitHub Actions trigger ────────────────────────────────────────────────────
+async function runScraper() {
+  const btn = document.getElementById('btnRun');
+  btn.disabled = true;
+  btn.textContent = '⏳ Disparando...';
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${GH_WF}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${GH_PAT}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ref: 'main'})
+      }
+    );
+    if (res.status === 204) {
+      showToast('✅ Scraper iniciado. Los datos se actualizarán en ~5 min.');
+    } else {
+      const txt = await res.text();
+      showToast(`❌ Error ${res.status}: ${txt.slice(0,120)}`);
+    }
+  } catch(e) {
+    showToast('❌ ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '▶ Ejecutar Scraper';
+  }
+}
+
+// ── CSV Export ────────────────────────────────────────────────────────────────
+function exportCSV() {
+  const data = retailerCache[currentTabId];
+  if (!data) { showToast('⚠ Cargá un retailer primero'); return; }
+  const hdr = ['Fecha','Fuente','Categoría','Marca','Tipo','SKU','Tamaño','Uds',
+                'Precio Lista','Dto%','Precio Final','EAN','Promo'];
+  const rows = [hdr];
+  data.categorias.forEach(cat => cat.marcas.forEach(m => m.skus.forEach(s => {
+    const fin = Math.round(s.precio*(1-(s.descuento||0)/100));
+    rows.push([data.fecha, data.fuente, cat.nombre, m.nombre,
+               m.owner==='pg'?'P&G':'Competencia',
+               s.sku, s.size||'', s.units, s.precio, s.descuento||0,
+               fin, s.ean||'', s.promo||'']);
+  })));
+  const csv  = rows.map(r => r.map(c => `"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const blob = new Blob(['\ufeff'+csv], {type:'text/csv;charset=utf-8;'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `pg_${data.fuente.replace(/[^a-z0-9]/gi,'_')}_${data.fecha}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('✅ CSV descargado');
+}
+
+// ── Overlay ───────────────────────────────────────────────────────────────────
+function showOverlay(name, sub) {
+  document.getElementById('tName').textContent = name;
+  document.getElementById('tSub').textContent  = sub || '';
+  document.getElementById('tOverlay').classList.add('show');
+}
+function hideOverlay() {
+  document.getElementById('tOverlay').classList.remove('show');
+}
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.style.display = 'block';
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.style.display = 'none', 4000);
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  if (sessionStorage.getItem('auth') === '1') {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('mainApp').style.display     = 'flex';
+    initApp();
+  }
+  // Allow pressing Enter on password field
+  document.getElementById('pwdInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') doLogin();
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+{
+  "retailer": "farmacity.com",
+  "base_url": "https://www.farmacity.com",
+  "account": "farmacity",
+  "platform": "vtex_io",
+  "categorias": [
+    {
+      "brands": [
+        {
+          "name": "Pampers",
+          "slug": "pampers",
+          "type": "pg"
+        },
+        {
+          "name": "Huggies",
+          "slug": "huggies",
+          "type": "comp"
+        },
+        {
+          "name": "Babysec",
+          "slug": "babysec",
+          "type": "comp"
+        }
+      ],
+      "icon": "🍼",
+      "id": "panales",
+      "nombre": "Pañales"
+    },
+    {
+      "brands": [
+        {
+          "name": "Pantene",
+          "slug": "pantene",
+          "type": "pg"
+        },
+        {
+          "name": "Head & Shoulders",
+          "slug": "head-and-shoulders",
+          "type": "pg"
+        },
+        {
+          "name": "Herbal Essences",
+          "slug": "herbal-essences",
+          "type": "pg"
+        },
+        {
+          "name": "Sedal",
+          "slug": "sedal",
+          "type": "comp"
+        },
+        {
+          "name": "Dove",
+          "slug": "dove",
+          "type": "comp"
+        },
+        {
+          "name": "TRESemmé",
+          "slug": "tresemme",
+          "type": "comp"
+        },
+        {
+          "name": "Elvive",
+          "slug": "elvive",
+          "type": "comp"
+        }
+      ],
+      "icon": "🧴",
+      "id": "capilar",
+      "nombre": "Shampoo / Acond. / Tratamientos"
+    },
+    {
+      "brands": [
+        {
+          "name": "Gillette",
+          "slug": "gillette",
+          "type": "pg"
+        },
+        {
+          "name": "Venus",
+          "slug": "venus",
+          "type": "pg"
+        },
+        {
+          "name": "Schick",
+          "slug": "schick",
+          "type": "comp"
+        },
+        {
+          "name": "Bic",
+          "slug": "bic",
+          "type": "comp"
+        },
+        {
+          "name": "Groomen",
+          "slug": "groomen",
+          "type": "comp"
+        }
+      ],
+      "icon": "🪒",
+      "id": "afeitado",
+      "nombre": "Afeitadoras"
+    },
+    {
+      "brands": [
+        {
+          "name": "Downy",
+          "slug": "downy",
+          "type": "pg"
+        },
+        {
+          "name": "Comfort",
+          "slug": "comfort",
+          "type": "comp"
+        },
+        {
+          "name": "Vivere",
+          "slug": "vivere",
+          "type": "comp"
+        }
+      ],
+      "icon": "🧺",
+      "id": "suavizantes",
+      "nombre": "Suavizantes"
+    },
+    {
+      "brands": [
+        {
+          "name": "Gillette",
+          "slug": "gillette",
+          "type": "pg"
+        },
+        {
+          "name": "Old Spice",
+          "slug": "old-spice",
+          "type": "pg"
+        },
+        {
+          "name": "Secret",
+          "slug": "secret",
+          "type": "pg"
+        },
+        {
+          "name": "Rexona",
+          "slug": "rexona",
+          "type": "comp"
+        },
+        {
+          "name": "Dove",
+          "slug": "dove",
+          "type": "comp"
+        }
+      ],
+      "icon": "🧼",
+      "id": "desodorantes",
+      "nombre": "Desodorantes"
+    },
+    {
+      "brands": [
+        {
+          "name": "Oral-B",
+          "slug": "oral-b",
+          "type": "pg"
+        },
+        {
+          "name": "Colgate",
+          "slug": "colgate",
+          "type": "comp"
+        },
+        {
+          "name": "Sensodyne",
+          "slug": "sensodyne",
+          "type": "comp"
+        }
+      ],
+      "icon": "🦷",
+      "id": "dental",
+      "nombre": "Cepillos y Pastas Dentales"
+    },
+    {
+      "brands": [
+        {
+          "name": "Always",
+          "slug": "always",
+          "type": "pg"
+        },
+        {
+          "name": "Kotex",
+          "slug": "kotex",
+          "type": "comp"
+        },
+        {
+          "name": "Nosotras",
+          "slug": "nosotras",
+          "type": "comp"
+        }
+      ],
+      "icon": "🌸",
+      "id": "femenino",
+      "nombre": "Toallas / Protectores"
+    },
+    {
+      "brands": [
+        {
+          "name": "Vick",
+          "slug": "vick",
+          "type": "pg"
+        }
+      ],
+      "icon": "💊",
+      "id": "salud",
+      "nombre": "Salud (Vick)"
+    }
+  ]
+}

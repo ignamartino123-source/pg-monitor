@@ -1,0 +1,200 @@
+{
+  "retailer": "perfumeriaspigmento.com.ar",
+  "base_url": "https://www.perfumeriaspigmento.com.ar",
+  "account": "perfugroupar",
+  "categorias": [
+    {
+      "id": "panales",
+      "nombre": "Pañales",
+      "icon": "🍼",
+      "brands": [
+        {
+          "name": "Pampers",
+          "slug": "pampers",
+          "type": "pg"
+        },
+        {
+          "name": "Huggies",
+          "slug": "huggies",
+          "type": "comp"
+        },
+        {
+          "name": "Babysec",
+          "slug": "babysec",
+          "type": "comp"
+        }
+      ]
+    },
+    {
+      "id": "capilar",
+      "nombre": "Shampoo / Acond. / Tratamientos",
+      "icon": "🧴",
+      "brands": [
+        {
+          "name": "Pantene",
+          "slug": "pantene",
+          "type": "pg"
+        },
+        {
+          "name": "Head & Shoulders",
+          "slug": "head-&-shoulders",
+          "type": "pg"
+        },
+        {
+          "name": "Herbal Essences",
+          "slug": "herbal-essences",
+          "type": "pg"
+        },
+        {
+          "name": "Sedal",
+          "slug": "sedal",
+          "type": "comp"
+        },
+        {
+          "name": "Dove",
+          "slug": "dove",
+          "type": "comp"
+        },
+        {
+          "name": "TRESemmé",
+          "slug": "tresemme",
+          "type": "comp"
+        },
+        {
+          "name": "Elvive",
+          "slug": "elvive",
+          "type": "comp"
+        },
+        {
+          "name": "OGX",
+          "slug": "ogx",
+          "type": "comp"
+        },
+        {
+          "name": "Wella",
+          "slug": "wella",
+          "type": "comp"
+        }
+      ]
+    },
+    {
+      "id": "afeitado",
+      "nombre": "Afeitadoras / Depilación",
+      "icon": "🪒",
+      "brands": [
+        {
+          "name": "Gillette",
+          "slug": "gillette",
+          "type": "pg"
+        },
+        {
+          "name": "Venus",
+          "slug": "venus",
+          "type": "pg"
+        },
+        {
+          "name": "Bic",
+          "slug": "bic",
+          "type": "comp"
+        },
+        {
+          "name": "Schick",
+          "slug": "schick",
+          "type": "comp"
+        }
+      ]
+    },
+    {
+      "id": "desodorantes",
+      "nombre": "Desodorantes",
+      "icon": "🧼",
+      "brands": [
+        {
+          "name": "Old Spice",
+          "slug": "old-spice",
+          "type": "pg"
+        },
+        {
+          "name": "Secret",
+          "slug": "secret",
+          "type": "pg"
+        },
+        {
+          "name": "Rexona",
+          "slug": "rexona",
+          "type": "comp"
+        },
+        {
+          "name": "Axe",
+          "slug": "axe",
+          "type": "comp"
+        },
+        {
+          "name": "Nivea",
+          "slug": "nivea",
+          "type": "comp"
+        },
+        {
+          "name": "Dove",
+          "slug": "dove",
+          "type": "comp"
+        }
+      ]
+    },
+    {
+      "id": "dental",
+      "nombre": "Cepillos y Pastas Dentales",
+      "icon": "🦷",
+      "brands": [
+        {
+          "name": "Oral-B",
+          "slug": "oral-b",
+          "type": "pg"
+        },
+        {
+          "name": "Colgate",
+          "slug": "colgate",
+          "type": "comp"
+        },
+        {
+          "name": "Sensodyne",
+          "slug": "sensodyne",
+          "type": "comp"
+        },
+        {
+          "name": "Listerine",
+          "slug": "listerine",
+          "type": "comp"
+        }
+      ]
+    },
+    {
+      "id": "femenino",
+      "nombre": "Protección Femenina",
+      "icon": "🌸",
+      "brands": [
+        {
+          "name": "Always",
+          "slug": "always",
+          "type": "pg"
+        },
+        {
+          "name": "Nosotras",
+          "slug": "nosotras",
+          "type": "comp"
+        },
+        {
+          "name": "Carefree",
+          "slug": "carefree",
+          "type": "comp"
+        },
+        {
+          "name": "Siempre Libre",
+          "slug": "siempre-libre",
+          "type": "comp"
+        }
+      ]
+    }
+  ],
+  "platform": "vtex_io"
+}

@@ -1,0 +1,2 @@
+# P&G Scraper dependencies — no browser needed, uses VTEX/Magento APIs directly
+# urllib is in Python stdlib — no extra HTTP library needed
