@@ -4614,6 +4614,82 @@
       "icon": "🧼",
       "marcas": [
         {
+          "nombre": "Gillette",
+          "owner": "pg",
+          "skus": [
+            {
+              "sku": "Antitranspirante en Gel Gillette Cool Wave x 82 g",
+              "ean": "7702018913664",
+              "size": "82g",
+              "units": 82,
+              "precio": 13472,
+              "descuento": 35,
+              "promo": "-35%",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Desodorante Antitranspirante Gillette Specialized Power Rush x 82 g",
+              "ean": "7702018913688",
+              "size": "82g",
+              "units": 82,
+              "precio": 13472,
+              "descuento": 35,
+              "promo": "-35%",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Desodorante Antitranspirante Gillette Specialized Artic Ice x 82 g",
+              "ean": "7702018913671",
+              "size": "82g",
+              "units": 82,
+              "precio": 13472,
+              "descuento": 35,
+              "promo": "-35%",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Desodorante Antitranspirante Gillette Specialized Pro Cool Wave x 45 g",
+              "ean": "7500435011198",
+              "size": "45g",
+              "units": 45,
+              "precio": 19055,
+              "descuento": 35,
+              "promo": "-35%",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Desodorante Antitranspirante en Gel Gillette Antibacterial x 82 g",
+              "ean": "7500435113465",
+              "size": "82g",
+              "units": 82,
+              "precio": 13472,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Desodorante Antitranspirante Gillette Specialized Cool Wave x 45 g",
+              "ean": "7500435129947",
+              "size": "45g",
+              "units": 45,
+              "precio": 9831,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Desodorante Antitranspirante Gillette Hydra Gel Aloe x 82 g",
+              "ean": "7500435140591",
+              "size": "82g",
+              "units": 82,
+              "precio": 13472,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            }
+          ]
+        },
+        {
           "nombre": "Old Spice",
           "owner": "pg",
           "skus": [
