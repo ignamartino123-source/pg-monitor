@@ -1,0 +1,27 @@
+{
+  "updated": "2026-04-10T19:50:29",
+  "retailers": [
+    {
+      "id": "perfumeriaspigmento_com_ar",
+      "name": "perfumeriaspigmento.com.ar",
+      "files": [
+        {
+          "filename": "perfumeriaspigmento_com_ar_2026-04-10.json",
+          "fecha": "2026-04-10",
+          "label": "Sem 15 — 2026-04-10"
+        }
+      ]
+    },
+    {
+      "id": "farmacity_com",
+      "name": "farmacity.com",
+      "files": [
+        {
+          "filename": "farmacity_com_2026-04-10.json",
+          "fecha": "2026-04-10",
+          "label": "Sem 15 — 2026-04-10"
+        }
+      ]
+    }
+  ]
+}

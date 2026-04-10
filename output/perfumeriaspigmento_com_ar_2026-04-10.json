@@ -1,0 +1,2916 @@
+{
+  "label": "Sem 15 — 2026-04-10",
+  "fecha": "2026-04-10",
+  "fuente": "perfumeriaspigmento.com.ar",
+  "nota": "",
+  "categorias": [
+    {
+      "id": "panales",
+      "nombre": "Pañales",
+      "icon": "🍼",
+      "marcas": [
+        {
+          "nombre": "Pampers",
+          "owner": "pg",
+          "skus": [
+            {
+              "sku": "Pañales Baby Dry Hipoalergénico Talle M 52 Un",
+              "ean": "7500435228749",
+              "size": "M",
+              "units": 52,
+              "precio": 36300,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Toallitas Humedas Higiene Completa 48 U 48Un",
+              "ean": "7500435200066",
+              "size": "",
+              "units": 48,
+              "precio": 8900,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Baby Dry Hipoalergénico Talle G 44 Unid",
+              "ean": "7500435228732",
+              "size": "G",
+              "units": 44,
+              "precio": 36300,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Baby Dry Hipoalergénico Talle XXG 34 Unid",
+              "ean": "7500435228770",
+              "size": "XXG",
+              "units": 34,
+              "precio": 36300,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Baby Dry Recién Nacido Hipoalergénico Talle P 56 Unid",
+              "ean": "7500435228756",
+              "size": "P",
+              "units": 56,
+              "precio": 29400,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Splashers Baby Shark Para Nadar Talle G 11 Unid",
+              "ean": "7500435157520",
+              "size": "G",
+              "units": 11,
+              "precio": 16600,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Deluxe Protection Talle XG 36 Un",
+              "ean": "7500435237628",
+              "size": "XG",
+              "units": 36,
+              "precio": 47400,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Deluxe Protection Talle XXG 34 Unid",
+              "ean": "7500435237635",
+              "size": "XXG",
+              "units": 34,
+              "precio": 47400,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Baby Dry Hipoalergénico Talle XG 36 Unid",
+              "ean": "7500435228763",
+              "size": "XG",
+              "units": 36,
+              "precio": 36300,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Splashers Baby Shark Para Nadar Talle P-M 12 Unid",
+              "ean": "7500435157513",
+              "size": "P",
+              "units": 12,
+              "precio": 16600,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Premium Care Pants Talle G 30 Unid",
+              "ean": "7500435145947",
+              "size": "G",
+              "units": 30,
+              "precio": 36500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Premium Care Pants Talle XXG 24 Unid",
+              "ean": "7500435145961",
+              "size": "XXG",
+              "units": 24,
+              "precio": 36500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Babysan Hipoalergénico Talle G 40 Unid",
+              "ean": "7500435228572",
+              "size": "G",
+              "units": 40,
+              "precio": 26000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Babysan Hipoalergénico Talle P 52 Unid",
+              "ean": "7500435230506",
+              "size": "P",
+              "units": 52,
+              "precio": 23307,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Babysan Hipoalergénico Talle M 48 Unid",
+              "ean": "7500435228589",
+              "size": "M",
+              "units": 48,
+              "precio": 26000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Pañales Babysan Hipoalergénico Talle XG 32 Unid",
+              "ean": "7500435228596",
+              "size": "XG",
+              "units": 32,
+              "precio": 26000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            }
+          ]
+        },
+        {
+          "nombre": "Huggies",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Pañales Protect Plus Talle G 40 Unid",
+              "ean": "7794626011887",
+              "size": "G",
+              "units": 40,
+              "precio": 15937,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Combo Pañales Protect Plus 8 Unidades Pack x3 Talle XG",
+              "ean": null,
+              "size": "XG",
+              "units": 3,
+              "precio": 12900,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Protect Plus 8 Unidades Talle XG",
+              "ean": "7794626013478",
+              "size": "XG",
+              "units": 8,
+              "precio": 4100,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Protect Plus Recién Nacido Talle P 30 Unid",
+              "ean": "7794626013584",
+              "size": "P",
+              "units": 30,
+              "precio": 11400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Babysec",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Pañales Ultra Soft G 40 Unid",
+              "ean": "7790250042068",
+              "size": "G",
+              "units": 40,
+              "precio": 15857,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft XXG 30 Unid",
+              "ean": "7790250042082",
+              "size": "XXG",
+              "units": 30,
+              "precio": 15857,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft P 50 Unid",
+              "ean": "7790250040897",
+              "size": "P",
+              "units": 50,
+              "precio": 15857,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft XG 32 Unid",
+              "ean": "7790250042075",
+              "size": "XG",
+              "units": 32,
+              "precio": 15857,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft M 48 Unid",
+              "ean": "7790250042051",
+              "size": "M",
+              "units": 48,
+              "precio": 15857,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Premium Soft XG 32 Unid",
+              "ean": "7790250042860",
+              "size": "XG",
+              "units": 32,
+              "precio": 19142,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Premium Soft  XXG 30 Unid",
+              "ean": "7790250042891",
+              "size": "XXG",
+              "units": 30,
+              "precio": 19142,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Premium Soft G 40 Unid",
+              "ean": "7790250042822",
+              "size": "G",
+              "units": 40,
+              "precio": 19142,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft Talle P 12 Un",
+              "ean": "7790250040750",
+              "size": "P",
+              "units": 12,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft Talle M 8 Un",
+              "ean": "7790250040767",
+              "size": "M",
+              "units": 8,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft Talle XG 8 Un",
+              "ean": "7790250040781",
+              "size": "XG",
+              "units": 8,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pañales Ultra Soft Talle G 8 Un",
+              "ean": "7790250040774",
+              "size": "G",
+              "units": 8,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capilar",
+      "nombre": "Shampoo / Acond. / Tratamientos",
+      "icon": "🧴",
+      "marcas": [
+        {
+          "nombre": "Pantene",
+          "owner": "pg",
+          "skus": [
+            {
+              "sku": "Shampoo Pantene Pro-V Miracles Colageno 300 Ml",
+              "ean": "7500435191425",
+              "size": "300ml",
+              "units": 1,
+              "precio": 9000,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Shampoo Pantene Pro-V Miracles Colageno 510 Ml",
+              "ean": "7500435191456",
+              "size": "510ml",
+              "units": 1,
+              "precio": 15100,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Shampoo Pantene Pro-V Miracles Anticaída 300 Ml",
+              "ean": "7500435248037",
+              "size": "300ml",
+              "units": 1,
+              "precio": 9000,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Shampoo Pantene Pro-V Miracles Keratina 300 Ml",
+              "ean": "7500435241113",
+              "size": "300ml",
+              "units": 1,
+              "precio": 9000,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Acondicionador 3 Minute Miracle Hidratación Extrema 170 Ml",
+              "ean": "7500435106412",
+              "size": "170ml",
+              "units": 1,
+              "precio": 9100,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Acondicionador 3 Minute Miracle Nutrición 170 Ml",
+              "ean": "7500435243698",
+              "size": "170ml",
+              "units": 1,
+              "precio": 9100,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Máscara Capilar Pro-V Miracles Restauración 300 Ml",
+              "ean": "7500435243674",
+              "size": "300ml",
+              "units": 1,
+              "precio": 9600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Acondicionador Pro-V Miracles Hidrata y Fortalece 200 Ml",
+              "ean": "7500435230070",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5990,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Acondicionador Pro-V Miracles Equilibrio Raíz y Puntas 200 Ml",
+              "ean": "7500435230001",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5990,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            }
+          ]
+        },
+        {
+          "nombre": "Head & Shoulders",
+          "owner": "pg",
+          "skus": [
+            {
+              "sku": "Shampoo Anti-Comezón Extra Refrescante 375 Ml",
+              "ean": "7500435231237",
+              "size": "375ml",
+              "units": 1,
+              "precio": 11400,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Shampoo Protección Caída 375 Ml",
+              "ean": "7500435182713",
+              "size": "375ml",
+              "units": 1,
+              "precio": 11400,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Shampoo Limpieza y Revitalización Con Aceite de Argán 375 Ml",
+              "ean": "7500435202695",
+              "size": "375ml",
+              "units": 1,
+              "precio": 11400,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Shampoo Control Caspa Men 3 en 1 375 Ml",
+              "ean": "7500435019491",
+              "size": "375ml",
+              "units": 1,
+              "precio": 11400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Dermo Acondicionador Control Caspa Hidratación 300 Ml",
+              "ean": "7500435147583",
+              "size": "300ml",
+              "units": 1,
+              "precio": 10500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            }
+          ]
+        },
+        {
+          "nombre": "Sedal",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Serum Capilar + Oleo Toque De Seda 60 Ml",
+              "ean": "7891150101777",
+              "size": "60ml",
+              "units": 1,
+              "precio": 8900,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Colágeno Y Vitamina C 340 Ml",
+              "ean": "7791293042077",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Colágeno Y Vitamina C 190 Ml",
+              "ean": "7791293046457",
+              "size": "190ml",
+              "units": 1,
+              "precio": 3600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo con Ácido Hialurónico Y Vitamina A 340 Ml",
+              "ean": "7791293041988",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Ceramidas 340 Ml",
+              "ean": "7791293030777",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Restauración Instantánea 340 Ml",
+              "ean": "7791293030876",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Ácido Hialurónico & Vitamina A Care+ 340 Ml",
+              "ean": "7791293046433",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Ceramidas 340 Ml",
+              "ean": "7791293030937",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Serum Capilar Toque De Seda 100 Ml",
+              "ean": "7891150101784",
+              "size": "100ml",
+              "units": 1,
+              "precio": 10000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Jengibre & Ricino 340 Ml",
+              "ean": "7791293042978",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Risos Definidos 340 Ml",
+              "ean": "7791293031026",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Liso Perfecto 340 Ml",
+              "ean": "7791293030982",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador  Restauración Instantánea 340 Ml",
+              "ean": "7791293031019",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Liso Perfecto 340 Ml",
+              "ean": "7791293030845",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Crema Balance 340 Ml",
+              "ean": "7791293030807",
+              "size": "340ml",
+              "units": 1,
+              "precio": 5500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Dove",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Máscara De Tratamiento Hidratación Completa Ultra Cuidado 300 Gr",
+              "ean": "7791293050881",
+              "size": "",
+              "units": 1,
+              "precio": 8666,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Máscara De Tratamiento Reconstrucción Completa 300 Gr",
+              "ean": "7791293048635",
+              "size": "",
+              "units": 1,
+              "precio": 8666,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Máscara de Tratamiento DOVE UV Repair & Glow 250 gr",
+              "ean": "7891150103481",
+              "size": "",
+              "units": 1,
+              "precio": 14916,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador  Hidratación Intensa 400 Ml",
+              "ean": "7791293050355",
+              "size": "400ml",
+              "units": 1,
+              "precio": 8816,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador  Ritual De Reparación Coco Y Cúrcuma 400 Ml",
+              "ean": "7791293047492",
+              "size": "400ml",
+              "units": 1,
+              "precio": 8816,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Baby Humectación Enriquecida 200Ml",
+              "ean": "7891150036390",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6610,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Baby Humectación Enriquecida sin lágrimas 200 Ml",
+              "ean": "7891150025929",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6610,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo BABY Humectación Enriquecida 400 Ml",
+              "ean": "7891150025950",
+              "size": "400ml",
+              "units": 1,
+              "precio": 10980,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Cabello Claro Baby Humectación Enriquecida pH Neutro 200 Ml",
+              "ean": "7891150045316",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6610,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Bond Intense Repair 200 Ml",
+              "ean": "7791293051024",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5790,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Bond Intense Repair 400 Ml",
+              "ean": "7791293051017",
+              "size": "400ml",
+              "units": 1,
+              "precio": 9692,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Men +Care Caspa Control Fortificante 400 Ml",
+              "ean": "7891150023529",
+              "size": "400ml",
+              "units": 1,
+              "precio": 8790,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo 2 en 1 Men Care Fuerza Extrema 400 Ml",
+              "ean": "7891150023505",
+              "size": "400ml",
+              "units": 1,
+              "precio": 8790,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador DOVE UV Repair & Glow 250 ml",
+              "ean": "7891150103474",
+              "size": "250ml",
+              "units": 1,
+              "precio": 8138,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Kit Dove Oleos Capilares 2 Unid",
+              "ean": "7891150097124",
+              "size": "",
+              "units": 2,
+              "precio": 32000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Kit Máscara Tratamiento + Óleo Bifásico Dove UV Repair & Glow 2 Unid",
+              "ean": "7891150103504",
+              "size": "",
+              "units": 2,
+              "precio": 29800,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo DOVE UV Repair & Glow 200 Ml",
+              "ean": "7891150104822",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5790,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Reconstrucción Completa  Recarga 180 Ml",
+              "ean": "7791293046938",
+              "size": "180ml",
+              "units": 1,
+              "precio": 3600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Ritual Reparación Recarga 180 Ml",
+              "ean": "7791293041469",
+              "size": "180ml",
+              "units": 1,
+              "precio": 3600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Cuida & Protege Antibacterial 400 Ml",
+              "ean": "7791293045252",
+              "size": "400ml",
+              "units": 1,
+              "precio": 8790,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Tresemme",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Shampoo Keratina AntiFrizz 500 Ml",
+              "ean": "7791293049953",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Keratina AntiFrizz 500 Ml",
+              "ean": "7791293044750",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Detox Capilar 500 Ml",
+              "ean": "7791293044699",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Cauterización Reparadora 500 Ml",
+              "ean": "7791293044767",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Brillo Lamelar 500 Ml",
+              "ean": "7791293049878",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Cauterización Reparadora 500 Ml",
+              "ean": "7791293044668",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Liso Efecto Botox 500 Ml",
+              "ean": "7791293044774",
+              "size": "500ml",
+              "units": 500,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Brillo Lamelar 500 Ml",
+              "ean": "7791293049861",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Matizador UltraVioleta 500 Ml",
+              "ean": "7791293044804",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Ondas Boho 500 Ml",
+              "ean": "7791293044781",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Matizador UltraVioleta 500 Ml",
+              "ean": "7791293044705",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Detox Capilar 500 Ml",
+              "ean": "7791293044798",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Ondas Boho 500 Ml",
+              "ean": "7791293044682",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9380,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Sérum Capilar Brillo Lamelar 170 Ml",
+              "ean": "7891150094390",
+              "size": "170ml",
+              "units": 1,
+              "precio": 11400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Elvive",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Acondicionador Elvive RT5 Keratin 200 Ml",
+              "ean": "7509552903416",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5984,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Colorvive 200 Ml",
+              "ean": "7509552903423",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5984,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Oleo Extraordinario Coco 200 Ml",
+              "ean": "7509552840353",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5984,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Elvive Glycolic Gloss 200 Ml",
+              "ean": "7509552937343",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6461,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Elvive Hialuronico Pure 400 Ml",
+              "ean": "7509552876444",
+              "size": "400ml",
+              "units": 1,
+              "precio": 9990,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Hidra Hialuronico 400 Ml",
+              "ean": "7509552845983",
+              "size": "400ml",
+              "units": 1,
+              "precio": 9990,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Dream Long 400 Ml",
+              "ean": "7509552790160",
+              "size": "400ml",
+              "units": 1,
+              "precio": 9990,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Glycolic Gloss 400 Ml",
+              "ean": "7509552930344",
+              "size": "400ml",
+              "units": 1,
+              "precio": 10990,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Glycolic Gloss 200 Ml",
+              "ean": "7509552930337",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6461,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Hialuronico Pure 400 Ml",
+              "ean": "7509552876482",
+              "size": "400ml",
+              "units": 1,
+              "precio": 9990,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Hialuronico Pure 200 Ml",
+              "ean": "7509552876420",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5984,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Elvive Dream Liso 400 Ml",
+              "ean": "7509552964387",
+              "size": "400ml",
+              "units": 1,
+              "precio": 10990,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Elvive Dream Liso 200 Ml",
+              "ean": "7509552964554",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6461,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Elvive Dream Liso 200 Ml",
+              "ean": "7509552964417",
+              "size": "200ml",
+              "units": 1,
+              "precio": 6461,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Hidra Hialurónico 200 Ml",
+              "ean": "7509552845945",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5984,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Matizador Color Vive Purple 200 Ml",
+              "ean": "7509552816204",
+              "size": "200ml",
+              "units": 1,
+              "precio": 5984,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Elvive Colorvive 200 Ml",
+              "ean": "7509552815269",
+              "size": "200ml",
+              "units": 1,
+              "precio": 7000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Kit Indispensables para el Pelo L´Oreal Paris: Oleo Extraordinario + Magic Retouch Rubio Oscuro 2 Unid",
+              "ean": null,
+              "size": "",
+              "units": 2,
+              "precio": 33100,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "OGX",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Shampoo Anti Quiebre Keratin Oil 385 Ml",
+              "ean": "22796917515",
+              "size": "385ml",
+              "units": 1,
+              "precio": 25800,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Acondicionador Anti Quiebre Keratin Oil 385 Ml",
+              "ean": "7891010244682",
+              "size": "385ml",
+              "units": 1,
+              "precio": 25800,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Brazilian Keratin Smooth Fuerza, Suavidad & Brillo 385 Ml",
+              "ean": "22796916013",
+              "size": "385ml",
+              "units": 1,
+              "precio": 25800,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Matizador Purple Toning 385 Ml",
+              "ean": "52800676916",
+              "size": "385ml",
+              "units": 1,
+              "precio": 25800,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Óleo Capilar Argan Oil Of Morocco Extra Strength 100 Ml",
+              "ean": "22796916167",
+              "size": "100ml",
+              "units": 1,
+              "precio": 30100,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Shampoo Rulos Definidos Quenching & Coconut Curls 385 Ml",
+              "ean": "22796900906",
+              "size": "385ml",
+              "units": 1,
+              "precio": 25800,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afeitado",
+      "nombre": "Afeitadoras / Depilación",
+      "icon": "🪒",
+      "marcas": [
+        {
+          "nombre": "Gillette",
+          "owner": "pg",
+          "skus": [
+            {
+              "sku": "Maquinas Para Afeitar Prestobarba3 Comfortgel 4 Unid",
+              "ean": "7702018874750",
+              "size": "",
+              "units": 4,
+              "precio": 12642,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Cartuchos Maquina Para Afeitar Mach3 2 Unid",
+              "ean": "47400179240",
+              "size": "",
+              "units": 2,
+              "precio": 10000,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Máquina Para Afeitar Mini Care Snap 1 Unid",
+              "ean": "7500435148627",
+              "size": "",
+              "units": 1,
+              "precio": 24500,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Maquina Para Afeitar Recargable Mach3 Sensitive 1 Unid",
+              "ean": "7702018037803",
+              "size": "",
+              "units": 1,
+              "precio": 17500,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": false
+            },
+            {
+              "sku": "Maquina Para Afeitar Simply3 4 Unid",
+              "ean": "7500435184588",
+              "size": "",
+              "units": 4,
+              "precio": 12000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Espuma Para Afeitar Foamy Regular 312 Gr",
+              "ean": "7500435224604",
+              "size": "",
+              "units": 1,
+              "precio": 12350,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Repuesto Hoja Para Afeitar Gillette Mach 3 plus 4 Unid",
+              "ean": "7500435169486",
+              "size": "",
+              "units": 4,
+              "precio": 19500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Espuma Para Afeitar Foamy Sensitive 322 Ml",
+              "ean": "7500435219655",
+              "size": "322ml",
+              "units": 1,
+              "precio": 13590,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Máquina Para Afeitar Carbono 1 Unid",
+              "ean": "7500435219334",
+              "size": "",
+              "units": 1,
+              "precio": 12500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Cartuchos Maquina Para Afeitar Mach3 Sensitve 2 Unid",
+              "ean": "7702018037865",
+              "size": "",
+              "units": 2,
+              "precio": 10600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Cartuchos Máquina para Afeitar Carbono 4 Unid",
+              "ean": "7500435211635",
+              "size": "",
+              "units": 4,
+              "precio": 20500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Cartuchos Máquina Para Afeitar Carbono 2 Unid",
+              "ean": "7500435225366",
+              "size": "",
+              "units": 2,
+              "precio": 10800,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Espuma Para Afeitar Foamy Mentol 322 Ml",
+              "ean": "7500435219662",
+              "size": "322ml",
+              "units": 1,
+              "precio": 13590,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Maquina Para Afeitar Recargable Mach3 1 Unid",
+              "ean": "7702018001071",
+              "size": "",
+              "units": 1,
+              "precio": 15642,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Maquina Para Afeitar Styler 3 En 1 1 Unid",
+              "ean": "7702018330126",
+              "size": "",
+              "units": 1,
+              "precio": 92700,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            }
+          ]
+        },
+        {
+          "nombre": "Bic",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Máquina Para Afeitar Soleil Escape Rosa Magnolia 3 Unid",
+              "ean": "7501843503923",
+              "size": "",
+              "units": 3,
+              "precio": 7700,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Máquina Para Afeitar Soleil Escape Lavanda Eucalipto 3 Unid",
+              "ean": "7501014501390",
+              "size": "",
+              "units": 3,
+              "precio": 7700,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desodorantes",
+      "nombre": "Desodorantes",
+      "icon": "🧼",
+      "marcas": [
+        {
+          "nombre": "Rexona",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Desodorante en Crema para Todo el Cuerpo REXONA All Body Deo Ocean Rush 75 gr",
+              "ean": "7891150102835",
+              "size": "",
+              "units": 1,
+              "precio": 8195,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante en Aerosol para Todo el Cuerpo REXONA All Body Deo Fresh Citrus 150 Ml",
+              "ean": "7791293051550",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5725,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Men Hombre 150 Ml",
+              "ean": "7791293041698",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Talco Desodorante Para Pies Efficient 200 Gr",
+              "ean": "7791293040967",
+              "size": "",
+              "units": 1,
+              "precio": 5390,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Active Emotion 150 Ml",
+              "ean": "7791293041537",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Clinical Expert Classic 150 Ml",
+              "ean": "7506306214989",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6975,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante En Crema Odorono 60 Gr",
+              "ean": "77987983",
+              "size": "",
+              "units": 1,
+              "precio": 2610,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Pédico en Talco Efficient Original 100 Gr",
+              "ean": "7791293044477",
+              "size": "",
+              "units": 1,
+              "precio": 3190,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Talco Desodorante En Aerosol Para Pies Efficient Antibacterial 153 Ml",
+              "ean": "7791293040998",
+              "size": "153ml",
+              "units": 1,
+              "precio": 5690,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Antitranspirante Rexona Men Copa del Mundo de la FIFA 2026™ Edición Enzo Fernández en Aerosol 150 Ml",
+              "ean": "7791293041667",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Antitranspirante  Rexona Women Copa del Mundo de la FIFA 2026™ en Aerosol 150 Ml",
+              "ean": "7791293049571",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Talco Desodorante Para Pies Efficient Antibacteriano 200 Gr",
+              "ean": "7791293040981",
+              "size": "",
+              "units": 1,
+              "precio": 5390,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Invisible Women 150 Ml",
+              "ean": "7791293049526",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Antitranspirante  Rexona Men Copa del Mundo de la FIFA 2026™ en Aerosol 150 Ml",
+              "ean": "7791293049472",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Clinical Expert Classic 55 Ml",
+              "ean": "7791293038254",
+              "size": "55ml",
+              "units": 1,
+              "precio": 3380,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Clinical Expert Extra Dry 150 Ml",
+              "ean": "7891150064300",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6975,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Talco Desodorante En Aerosol Efficient 153 Ml",
+              "ean": "7791293041001",
+              "size": "153ml",
+              "units": 1,
+              "precio": 5690,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante V8 250 Ml",
+              "ean": "7791293049595",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5780,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Bamboo Y Aloe Vera En Aerosol 150 Ml",
+              "ean": "7791293041742",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante XtraCool Men 250 Ml",
+              "ean": "7791293049649",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5780,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Combo Copa del Mundo Rexona Mujer Desodorantes + Jabón + 1 Muñeco Coleccionable 4 Unid",
+              "ean": null,
+              "size": "",
+              "units": 4,
+              "precio": 10060,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Combo Copa del Mundo Rexona Desodorantes Mujer y Hombre + Jabón + 1 Muñeco Coleccionable 4 Unid",
+              "ean": null,
+              "size": "",
+              "units": 4,
+              "precio": 10060,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Men Xtra cool 150 Ml",
+              "ean": "7791293041674",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Antitranspirante Desodorante V8 En Barra 50 Gr",
+              "ean": "75076788",
+              "size": "",
+              "units": 1,
+              "precio": 5600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante En Barra Sport 50 Gr",
+              "ean": "75069216",
+              "size": "",
+              "units": 1,
+              "precio": 5600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Cotton Dry 150 Ml",
+              "ean": "7791293041728",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Roll On Nutritive 50 Ml",
+              "ean": "78923355",
+              "size": "50ml",
+              "units": 1,
+              "precio": 2765,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Clinical Refresh 150 Ml",
+              "ean": "7891150089952",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6975,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Cotton Dry 250 Ml",
+              "ean": "7791293049632",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5780,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante en Barra Clinical Clean Hombre 48 Gr",
+              "ean": "79400052919",
+              "size": "",
+              "units": 1,
+              "precio": 13500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Clinical Clean 55 Ml",
+              "ean": "7791293038261",
+              "size": "55ml",
+              "units": 1,
+              "precio": 3380,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Antitranspirante Clinical Clean 150 Ml",
+              "ean": "7506306214972",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6975,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Clinical Sport Strength 150 Ml",
+              "ean": "7891150068735",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6975,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Clinical Intense Fresh 150 Ml",
+              "ean": "7891150089983",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6975,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Men V8 150 Ml",
+              "ean": "7791293041544",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4446,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Combo Copa del Mundo Rexona Hombre Desodorantes + Jabón + 1 Muñeco Coleccionable 4 Unid",
+              "ean": null,
+              "size": "",
+              "units": 4,
+              "precio": 10060,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Axe",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Desodorante Apollo 150 Ml",
+              "ean": "7791293043814",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4230,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Blue Lavender 150 Ml",
+              "ean": "7506306249981",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": "2do al 70% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Marine 150 Ml",
+              "ean": "7791293043791",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4230,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Marine XL 230 Ml",
+              "ean": "7791293050614",
+              "size": "230ml",
+              "units": 1,
+              "precio": 5085,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Green Geranium 150 Ml",
+              "ean": "7506306249998",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": "2do al 70% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Peach Infusion 150 Ml",
+              "ean": "7506306255067",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5400,
+              "descuento": 0,
+              "promo": "2do al 70% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Musk Canela & Ámbar 230 Ml",
+              "ean": "7791293050607",
+              "size": "230ml",
+              "units": 1,
+              "precio": 5085,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante En Aerosol  Gold Wood Vainilla 150 Ml",
+              "ean": "7791293041131",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4230,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Nivea",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Desodorante Antitranspirante Dry Comfort Roll On 50 Ml",
+              "ean": "4005808257584",
+              "size": "50ml",
+              "units": 1,
+              "precio": 2812,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Roll On Men Sensitive Protect Roll On 50 Ml",
+              "ean": "4005808257621",
+              "size": "50ml",
+              "units": 1,
+              "precio": 2812,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante MEN Sensitive Protect Max Sin Siliconas 150 Ml",
+              "ean": "7791969029807",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 30,
+              "promo": "30% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Invisible Black & White Roll On 50 Ml",
+              "ean": "4005900036704",
+              "size": "50ml",
+              "units": 1,
+              "precio": 3000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Femenino NIVEA Black & White Invisible Clear en Aerosol 150 Ml",
+              "ean": "4005808979813",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Invisible B&W Roll On 50 Ml",
+              "ean": "4005900036759",
+              "size": "50ml",
+              "units": 1,
+              "precio": 3000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Femenino NIVEA Dry Comfort en Aerosol 150 Ml",
+              "ean": "4006000196107",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Dry Fresh Sin Siliconas 150 Ml",
+              "ean": "4005900973856",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Fresh Citrus Sin Siliconas 150 Ml",
+              "ean": "4005900901316",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante NIVEA MEN Derma Control Sensitive en Aerosol 150 Ml",
+              "ean": "7791969029807",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Femenino NIVEA Protect & Care en Aerosol 150 Ml",
+              "ean": "4005900122186",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante NIVEA MEN Dry Impact en Aerosol 150 Ml",
+              "ean": "4005808979677",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Men Dry Impact Roll On 50 Ml",
+              "ean": "4005808257553",
+              "size": "50ml",
+              "units": 1,
+              "precio": 2980,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Femenino Dry Fresh Sin Siliconas 150 Ml",
+              "ean": "4005900901361",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4200,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Invisible Black & White Clear 150 Ml",
+              "ean": "4005808979813",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4800,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Femenino Nivea Fresh Coconut 150 Ml",
+              "ean": "4006000196084",
+              "size": "150ml",
+              "units": 1,
+              "precio": 4000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Dove",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Desodorante en Crema para Todo el Cuerpo DOVE All Body Deo Raspberry & Rose 75 gr",
+              "ean": "7891150102828",
+              "size": "",
+              "units": 1,
+              "precio": 9740,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante en Aerosol para Todo el Cuerpo DOVE All Body Deo Lavender & Camomile 150 ml",
+              "ean": "7791293051659",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6820,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante en Aerosol para Todo el Cuerpo DOVE MEN All Body Deo Fig & Suede 150 ml",
+              "ean": "7791293051642",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6820,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante en Aerosol para Todo el Cuerpo DOVE MEN All Body Deo Shea Butter & Cedar 150 ml",
+              "ean": "7791293051635",
+              "size": "150ml",
+              "units": 1,
+              "precio": 6820,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante en Crema para Todo el Cuerpo DOVE  All Body Deo Lavender & Camomile 75 gr",
+              "ean": "7891150102811",
+              "size": "",
+              "units": 1,
+              "precio": 9740,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante En Aerosol Granada Go Fresh 150 Ml",
+              "ean": "7791293048499",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5140,
+              "descuento": 0,
+              "promo": "2do al 80% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Men +Care Proteccion Total 150 Ml",
+              "ean": "7791293048000",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5140,
+              "descuento": 0,
+              "promo": "3 X 2",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante En Aerosol Pera Go Fresh 150 Ml",
+              "ean": "7791293048505",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5140,
+              "descuento": 0,
+              "promo": "3 X 2",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Roll On Verbena 50 Ml",
+              "ean": "78935068",
+              "size": "50ml",
+              "units": 1,
+              "precio": 2933,
+              "descuento": 0,
+              "promo": "2do al 70% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante En Aerosol Pomelo Go Fresh 150 Ml",
+              "ean": "7791293048482",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5140,
+              "descuento": 0,
+              "promo": "3 X 2",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Men +Care Sport Fresh 150 Ml",
+              "ean": "7791293048024",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5140,
+              "descuento": 0,
+              "promo": "3 X 2",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante En Aerosol Men Extra Fresh 150 Ml",
+              "ean": "7791293048017",
+              "size": "150ml",
+              "units": 1,
+              "precio": 5140,
+              "descuento": 0,
+              "promo": "3 X 2",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Men+Care Clinical 150 Ml",
+              "ean": "7791293049625",
+              "size": "150ml",
+              "units": 1,
+              "precio": 8075,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante En Aerosol Original 250 Ml",
+              "ean": "7791293048536",
+              "size": "250ml",
+              "units": 1,
+              "precio": 7155,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Men Clinical Cuidado Total 110 Ml",
+              "ean": "7791293046754",
+              "size": "110ml",
+              "units": 1,
+              "precio": 7850,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Desodorante Antitranspirante Antitranspirante Clinical Crema 58 Gr",
+              "ean": "75079437",
+              "size": "",
+              "units": 1,
+              "precio": 16395,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dental",
+      "nombre": "Cepillos y Pastas Dentales",
+      "icon": "🦷",
+      "marcas": [
+        {
+          "nombre": "Oral-B",
+          "owner": "pg",
+          "skus": [
+            {
+              "sku": "Cepillo Dental Extra Soft 1 Unid",
+              "ean": "7500435170970",
+              "size": "",
+              "units": 1,
+              "precio": 4700,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Cepillo Dental  Kids Mickey 2 Unid",
+              "ean": "7500435127417",
+              "size": "",
+              "units": 2,
+              "precio": 8600,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Cepillo Interdental Expert Mini 2 Unid",
+              "ean": "7500435151948",
+              "size": "",
+              "units": 2,
+              "precio": 6990,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            },
+            {
+              "sku": "Repuesto para Cepillo Dental Eléctrico Cars 2 Unid",
+              "ean": "4210201338475",
+              "size": "",
+              "units": 2,
+              "precio": 24490,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": false
+            }
+          ]
+        },
+        {
+          "nombre": "Colgate",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Pasta Dental Sensitive Pro Alivio Inmediato Encías 110 Gr",
+              "ean": "7509546690384",
+              "size": "",
+              "units": 1,
+              "precio": 7190,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Total Clean Mint 250 Ml",
+              "ean": "7891024028834",
+              "size": "250ml",
+              "units": 1,
+              "precio": 6138,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Triple Acción 180 Gr",
+              "ean": "7509546686509",
+              "size": "",
+              "units": 1,
+              "precio": 6490,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Plax Fresh Mint 500 Ml",
+              "ean": "7891024131183",
+              "size": "500ml",
+              "units": 1,
+              "precio": 7180,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Plax Ice Infinity 500 Ml",
+              "ean": "7509546686431",
+              "size": "500ml",
+              "units": 1,
+              "precio": 7133,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Plax Ice Infinity 180 Ml",
+              "ean": "7891024039625",
+              "size": "180ml",
+              "units": 1,
+              "precio": 3800,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Triple Acción 3 Unid",
+              "ean": "99176369226",
+              "size": "",
+              "units": 3,
+              "precio": 7380,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Luminous Charcoal 90 Gr",
+              "ean": "7509546651057",
+              "size": "",
+              "units": 1,
+              "precio": 6590,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Max White Medio 2 Unid",
+              "ean": "99176316565",
+              "size": "",
+              "units": 2,
+              "precio": 6400,
+              "descuento": 35,
+              "promo": "35% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Twister Medio 2 Unid",
+              "ean": "7702010130632",
+              "size": "",
+              "units": 2,
+              "precio": 5733,
+              "descuento": 30,
+              "promo": "30% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Kids 2 Unid",
+              "ean": "7509546073453",
+              "size": "",
+              "units": 2,
+              "precio": 2850,
+              "descuento": 30,
+              "promo": "30% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Plax Minions 250 Ml",
+              "ean": "7891024030806",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5200,
+              "descuento": 30,
+              "promo": "30% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema DentalKids Fresantástico 50 Gr",
+              "ean": "7891024034095",
+              "size": "",
+              "units": 1,
+              "precio": 3186,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Protección Anticaries 180 Gr",
+              "ean": "7891024134610",
+              "size": "",
+              "units": 1,
+              "precio": 5890,
+              "descuento": 25,
+              "promo": "25% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Triple Acción 90 Gr",
+              "ean": "7509546686523",
+              "size": "",
+              "units": 1,
+              "precio": 3500,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pasta Dental Colgate Luminous White Glow 70 Gr",
+              "ean": "7509546676258",
+              "size": "",
+              "units": 1,
+              "precio": 7950,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Sensitive Whitening 100 Gr",
+              "ean": "7891024134429",
+              "size": "",
+              "units": 1,
+              "precio": 5133,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Twister Medio 3 Unid",
+              "ean": "7702010631405",
+              "size": "",
+              "units": 3,
+              "precio": 7000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Hilo Dental Nylon 2 Unid",
+              "ean": "7891024183120",
+              "size": "",
+              "units": 2,
+              "precio": 4290,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental 360º Luminous White 2 Unid",
+              "ean": "7509546055152",
+              "size": "",
+              "units": 2,
+              "precio": 7190,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Total 12 Visible Health Tubo Reciclable 140 Gr",
+              "ean": "7509546679341",
+              "size": "",
+              "units": 1,
+              "precio": 8890,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Hilo Dental Mint 1 Un",
+              "ean": "7891024183021",
+              "size": "",
+              "units": 1,
+              "precio": 3490,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Protección Anticaries 90 Gr",
+              "ean": "7891024134702",
+              "size": "",
+              "units": 1,
+              "precio": 3190,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Triple Acción Extra Blancura 90 Gr",
+              "ean": "7509546056098",
+              "size": "",
+              "units": 1,
+              "precio": 3990,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Bamboo Carbon 2 Unid",
+              "ean": "7891024078174",
+              "size": "",
+              "units": 2,
+              "precio": 8590,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Plax Fresh Mint 250 Ml",
+              "ean": "7891024136409",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5200,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Smiles 1 Un",
+              "ean": "7591083011081",
+              "size": "",
+              "units": 1,
+              "precio": 3590,
+              "descuento": 0,
+              "promo": "2do al 70% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Herbal 90 Gr",
+              "ean": "7509546686394",
+              "size": "",
+              "units": 1,
+              "precio": 3390,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Premier Clean 14x12 Pack",
+              "ean": "7702010630514",
+              "size": "",
+              "units": 12,
+              "precio": 17390,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Max White Suave 4 Unid",
+              "ean": "35000689610",
+              "size": "",
+              "units": 4,
+              "precio": 9990,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Total 12 Encías Reforzadas Tubo Reciclable 90 Gr",
+              "ean": "7509546679365",
+              "size": "",
+              "units": 1,
+              "precio": 6100,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Smiles Batman & Wonder Woman 2 Unid",
+              "ean": "7891024073001",
+              "size": "",
+              "units": 2,
+              "precio": 5390,
+              "descuento": 0,
+              "promo": "2do al 70% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Extra Clean Medio Cerdas Multinivel 3 Unid",
+              "ean": "7891024116128",
+              "size": "",
+              "units": 3,
+              "precio": 6290,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Total 12 Salud Visible 90 Gr",
+              "ean": "7509546679334",
+              "size": "",
+              "units": 1,
+              "precio": 6100,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pasta Dental Colgate Natural Herbal Protect 70 Gr",
+              "ean": "7509546695501",
+              "size": "",
+              "units": 1,
+              "precio": 2750,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Luminous 500 Ml",
+              "ean": "7509546686677",
+              "size": "500ml",
+              "units": 1,
+              "precio": 8200,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental  Pro Planet Kit 1 Unid",
+              "ean": "7509546669434",
+              "size": "",
+              "units": 1,
+              "precio": 16900,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Plax Soft Mint 500 Ml",
+              "ean": "7891024130957",
+              "size": "500ml",
+              "units": 1,
+              "precio": 10000,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Sensodyne",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Pasta Dental Protección Completa+ Anti Sarro 90 Gr",
+              "ean": "7896009498794",
+              "size": "",
+              "units": 1,
+              "precio": 7800,
+              "descuento": 45,
+              "promo": "45% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Sensibilidad & Encías 1 Un",
+              "ean": "7896015591823",
+              "size": "",
+              "units": 1,
+              "precio": 6100,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Para Dientes Sensibles Rápido Alivio Blanqueador 100 Gr",
+              "ean": "7794640172472",
+              "size": "",
+              "units": 1,
+              "precio": 10150,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Cepillo Dental Protección Completa+ 2 Unid",
+              "ean": "7794640172373",
+              "size": "",
+              "units": 2,
+              "precio": 7400,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Limpieza Profunda 90 Gr",
+              "ean": "7896015591106",
+              "size": "",
+              "units": 1,
+              "precio": 6350,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Multi Protección Fórmula Avanzada 90 Gr",
+              "ean": "7896009419294",
+              "size": "",
+              "units": 1,
+              "precio": 6090,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Para Dientes Sensibles Repara & Protege 100 Gr",
+              "ean": "7794640170720",
+              "size": "",
+              "units": 1,
+              "precio": 10790,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pasta Dental Protección Completa+ 140 Gr",
+              "ean": "7896009498978",
+              "size": "",
+              "units": 1,
+              "precio": 11150,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Pasta Denta Blanqueador Extra Fresh Dientes Sensibles 140 Gr",
+              "ean": "7896009499128",
+              "size": "",
+              "units": 1,
+              "precio": 9950,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Crema Dental Sensibilidad & Esmalte 100 Gr",
+              "ean": "7896009498572",
+              "size": "",
+              "units": 1,
+              "precio": 9790,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        },
+        {
+          "nombre": "Listerine",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Enjuague Bucal Cool Mint Frescura Intensa 250 Ml",
+              "ean": "7891010255244",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5369,
+              "descuento": 40,
+              "promo": "40% OFF",
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Freshburst Frescura Intensa 500 Ml",
+              "ean": "7891010255312",
+              "size": "500ml",
+              "units": 1,
+              "precio": 7550,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Freshburst Frescura Intensa 250 Ml",
+              "ean": "7891010255329",
+              "size": "250ml",
+              "units": 1,
+              "precio": 5369,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Cuidado Total Frescura Suave Sin Alcohol 500 Ml",
+              "ean": "7891010255381",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9450,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Cuidado Total Frescura Intensa 500 Ml",
+              "ean": "7891010255367",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9450,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Anticaries Frescura Suave Sin Alcohol 500 Ml",
+              "ean": "7891010255404",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9450,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Pro-Encías Frescura Intensa 500 Ml",
+              "ean": "7891010255299",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9450,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Antisarro Frescura Intensa 500 Ml",
+              "ean": "7891010255251",
+              "size": "500ml",
+              "units": 1,
+              "precio": 9450,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            },
+            {
+              "sku": "Enjuague Bucal Antisarro Frescura Intensa 250 Ml",
+              "ean": "7891010255268",
+              "size": "250ml",
+              "units": 1,
+              "precio": 6490,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "femenino",
+      "nombre": "Protección Femenina",
+      "icon": "🌸",
+      "marcas": [
+        {
+          "nombre": "Nosotras",
+          "owner": "comp",
+          "skus": [
+            {
+              "sku": "Tampones Digitales Sin Aplicador Regular 16 Unid",
+              "ean": "7702026194710",
+              "size": "",
+              "units": 16,
+              "precio": 4900,
+              "descuento": 0,
+              "promo": null,
+              "pg_oficial": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
