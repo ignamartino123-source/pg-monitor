@@ -1,9 +1,7 @@
 name: Scrape P&G Prices
 
 on:
-  schedule:
-    - cron: '0 10 * * 1'   # Every Monday at 10:00 UTC (7am Argentina)
-  workflow_dispatch:         # Manual trigger from GitHub UI or dashboard
+  workflow_dispatch:   # Solo corre cuando apretás el botón — nunca automático
 
 jobs:
   scrape:
@@ -26,11 +24,10 @@ jobs:
       - name: Run scraper
         run: python scraper.py
 
-      - name: Commit & push results
+      - name: Commit and push results
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/
-          git diff --staged --quiet || \
-            git commit -m "scraper: update $(date +%Y-%m-%d) [skip ci]"
+          git diff --staged --quiet || git commit -m "scraper: update $(date +%Y-%m-%d) [skip ci]"
           git push
